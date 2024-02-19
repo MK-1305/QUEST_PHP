@@ -1,8 +1,9 @@
 <?php
-    require 'Pokemon.php';
-    require 'Game.php';
+    require 'pokemon.php';
+    require 'game.php';
 
+    $pikachu = new Pikachu();
+    $hitokage = new Hitokage();
     $game = new Game();
-    $pokemon = new Pokemon('ピカチュウ', 20, 10);
     $game->battle($pokemon);
 ?>
